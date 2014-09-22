@@ -24,4 +24,12 @@ public class Trapeze {
         return true;
     }
 
+    int getHeight(){
+        return points[1].y - points[0].y;
+    }
+
+    int getMaxY(){
+        return points[2].y>points[3].y?points[2].y:points[3].y;
+    }
+
 }

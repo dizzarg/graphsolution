@@ -9,11 +9,10 @@ import java.util.List;
  */
 public class App{
 
-
     public static void main( String[] args ) throws IOException {
         List<Trapeze> trapezeList = TrapezeReader.read(new FileReader("data.txt"));
         System.out.println(trapezeList.size());
         System.out.println(trapezeList.get(0).checkPoints());
-//        System.out.println("Hello");
     }
 }
+
